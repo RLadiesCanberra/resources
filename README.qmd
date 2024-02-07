@@ -1,0 +1,23 @@
+---
+format: gfm
+---
+
+## 2024 Brochure
+
+Get [PDF here](Trifold brochure RLadies 2024 PDF.pdf).
+
+```{r}
+#| echo: false
+#| include: false
+library(magick)
+image_read_pdf("Trifold brochure RLadies 2024 PDF.pdf") |>
+  image_montage(geometry = "x2000+25+35", 
+                tile = "1x2", 
+                bg = "grey92", 
+                shadow = TRUE) |>
+  image_convert(format = "png") |>
+  image_write("rladies-brochure-2024-pdf.png")
+```
+
+
+![](rladies-brochure-2024-pdf.png)
