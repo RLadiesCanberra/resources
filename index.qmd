@@ -4,7 +4,7 @@ title: Resources for R-Ladies Canberra
 
 ## 2024 Brochure
 
-Get [PDF here](Trifold brochure RLadies 2024 PDF.pdf).
+Get [PDF here](Trifold brochure RLadies 2024 PDF.pdf). Brochure credit: Alice Richardson.
 
 ```{r}
 #| echo: false
